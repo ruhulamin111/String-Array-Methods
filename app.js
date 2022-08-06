@@ -16,8 +16,8 @@ function search(input) {
     }
     return output;
 }
-const result = search('laptop');
-// console.log(result);
+const result5 = search('laptop');
+// console.log(result5);
 
 // check with includes 
 
@@ -91,13 +91,22 @@ const shop = ['Asus republic of gamers', 'in Bangladesh'];
 // const slice6 = shop.join(' ');
 // console.log(slice);
 
-const markSheet = [35, 46, 57, 89, 49, 58, 20, 50];
+// const markSheet = [35, 46, 57, 89, 49, 58, 20, 50];
 // const markSheet2 = [35, 93, 84, 85, 50];
 // const result4 = markSheet.concat(markSheet2);
 // const result4 = markSheet.splice(3, 2);
 // const result4 = markSheet.slice(3, 7);
-const result4 = markSheet.splice(3, 3, 77, 88, 99, 100);
+// const result4 = markSheet.splice(3, 3, 77, 88, 99, 100);
 // console.log(markSheet);
-console.log(result4);
+// console.log(result4);
 
+// sorting methods 
+const markSheet = [35, 46, 57, 89, 899, 2, 49, 58, 20, 50];
+// const single = markSheet.sort();
+// const single = markSheet.reverse();
+// const single = markSheet.sort().reverse();
+// const single = markSheet.sort(function (a, b) { return b - a });
+// const single = markSheet.sort(function (a, b) { return a - b });
+const single = markSheet.sort(function (a, b) { return a - b });
+console.log(single);
 
