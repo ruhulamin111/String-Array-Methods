@@ -78,7 +78,18 @@ function searchItem(input) {
     return output;
 }
 const result3 = searchItem('laptop');
-console.log(result3);
+// console.log(result3);
+
+// split and splice array 
+// const shop = 'Asus republic of gamers';
+const shop = ['Asus republic of gamers', 'in Bangladesh'];
+const slice1 = shop.slice(2, 8);
+const slice2 = shop.split(' ');
+const slice3 = shop.substring(5, 8);
+const slice4 = shop.substr(5, 8);
+const slice5 = shop.concat(' in BD');
+const slice6 = shop.join(' ');
+// console.log(slice);
 
 
 
