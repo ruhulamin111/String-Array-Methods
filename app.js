@@ -83,13 +83,21 @@ const result3 = searchItem('laptop');
 // split and splice array 
 // const shop = 'Asus republic of gamers';
 const shop = ['Asus republic of gamers', 'in Bangladesh'];
-const slice1 = shop.slice(2, 8);
-const slice2 = shop.split(' ');
-const slice3 = shop.substring(5, 8);
-const slice4 = shop.substr(5, 8);
-const slice5 = shop.concat(' in BD');
-const slice6 = shop.join(' ');
+// const slice1 = shop.slice(2, 8);
+// const slice2 = shop.split(' ');
+// const slice3 = shop.substring(5, 8);
+// const slice4 = shop.substr(5, 8);
+// const slice5 = shop.concat(' in BD');
+// const slice6 = shop.join(' ');
 // console.log(slice);
 
+const markSheet = [35, 46, 57, 89, 49, 58, 20, 50];
+// const markSheet2 = [35, 93, 84, 85, 50];
+// const result4 = markSheet.concat(markSheet2);
+// const result4 = markSheet.splice(3, 2);
+// const result4 = markSheet.slice(3, 7);
+const result4 = markSheet.splice(3, 3, 77, 88, 99, 100);
+// console.log(markSheet);
+console.log(result4);
 
 
